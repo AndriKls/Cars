@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cars.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241212231706_Init")]
+    [Migration("20241213001926_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -38,7 +38,7 @@ namespace Cars.Data.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Hors")
+                    b.Property<int>("Horsepower")
                         .HasColumnType("int");
 
                     b.Property<string>("Model")
