@@ -3,24 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsSolution", "CarsSolution\CarsSolution.csproj", "{6CE05711-B4B8-45B3-B93D-DA1D775AB894}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsSolution", "CarsSolution\CarsSolution.csproj", "{6CE05711-B4B8-45B3-B93D-DA1D775AB894}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0DED7A04-F763-499A-A190-EFE50ABB6405} = {0DED7A04-F763-499A-A190-EFE50ABB6405}
 		{20675845-4295-49F9-A0C2-7E0658C46F0B} = {20675845-4295-49F9-A0C2-7E0658C46F0B}
 		{87AB02B6-6FB3-4FE1-9FD3-FDD3403BE2B9} = {87AB02B6-6FB3-4FE1-9FD3-FDD3403BE2B9}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars.ApplicationServices", "Cars.ApplicationServices\Cars.ApplicationServices.csproj", "{20675845-4295-49F9-A0C2-7E0658C46F0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.ApplicationServices", "Cars.ApplicationServices\Cars.ApplicationServices.csproj", "{20675845-4295-49F9-A0C2-7E0658C46F0B}"
 	ProjectSection(ProjectDependencies) = postProject
 		{87AB02B6-6FB3-4FE1-9FD3-FDD3403BE2B9} = {87AB02B6-6FB3-4FE1-9FD3-FDD3403BE2B9}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars.Core", "Cars.Core\Cars.Core.csproj", "{0DED7A04-F763-499A-A190-EFE50ABB6405}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.Core", "Cars.Core\Cars.Core.csproj", "{0DED7A04-F763-499A-A190-EFE50ABB6405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars.Data", "Cars.Data\Cars.Data.csproj", "{87AB02B6-6FB3-4FE1-9FD3-FDD3403BE2B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cars.Data", "Cars.Data\Cars.Data.csproj", "{87AB02B6-6FB3-4FE1-9FD3-FDD3403BE2B9}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0DED7A04-F763-499A-A190-EFE50ABB6405} = {0DED7A04-F763-499A-A190-EFE50ABB6405}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car.CarTest", "Car.CarTest\Car.CarTest.csproj", "{DB3CB009-B7D6-4211-94A8-81C1B9F5EC9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{87AB02B6-6FB3-4FE1-9FD3-FDD3403BE2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87AB02B6-6FB3-4FE1-9FD3-FDD3403BE2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87AB02B6-6FB3-4FE1-9FD3-FDD3403BE2B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3CB009-B7D6-4211-94A8-81C1B9F5EC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3CB009-B7D6-4211-94A8-81C1B9F5EC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3CB009-B7D6-4211-94A8-81C1B9F5EC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3CB009-B7D6-4211-94A8-81C1B9F5EC9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
