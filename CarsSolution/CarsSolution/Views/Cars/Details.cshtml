@@ -1,0 +1,72 @@
+﻿@model Cars.Core.Domain.Car
+
+<h1 class="mb-4">Car Details</h1>
+
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-3">
+            <strong>Brand:</strong>
+        </div>
+        <div class="col-9">
+            <p class="form-control-plaintext">@Model.Brand</p>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-3">
+            <strong>Model:</strong>
+        </div>
+        <div class="col-9">
+            <p class="form-control-plaintext">@Model.Model</p>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-3">
+            <strong>Year:</strong>
+        </div>
+        <div class="col-9">
+            <p class="form-control-plaintext">@Model.Year</p>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-3">
+            <strong>Horsepower:</strong>
+        </div>
+        <div class="col-9">
+            <p class="form-control-plaintext">@Model.Horsepower</p>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-3">
+            <strong>Price:</strong>
+        </div>
+        <div class="col-9">
+            <p class="form-control-plaintext">@Model.Price</p>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-3">
+            <strong>Created At:</strong>
+        </div>
+        <div class="col-9">
+            <p class="form-control-plaintext">@Model.CreatedAt.ToString("g")</p>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-3">
+            <strong>Updated At:</strong>
+        </div>
+        <div class="col-9">
+            <p class="form-control-plaintext">@Model.UpdatedAt.ToString("g")</p>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="List" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>
